@@ -1,10 +1,15 @@
 # List of repositories to use within your workspace
 # See https://github.com/dirk-thomas/vcstool
-############ 
-# Example:
-############
 repositories:
-  examples:
+  icart_mini_ros2:
     type: git
-    url: https://github.com/ros2/examples.git
-    version: humble
+    url: git@github.com:ShunjiHashimoto/icart_mini_ros2.git
+    version: main
+  i-Cart:
+    type: git
+    url: https://github.com/BND-tc/i-Cart.git
+    version: main
+  yp-spur:
+    type: git
+    url: https://github.com/BND-tc/yp-spur.git
+    version: master
