@@ -1,5 +1,4 @@
-#FROM althack/ros2:humble-dev 
-FROM arm64v8/ros:humble-perception
+FROM althack/ros2:humble-dev 
 
 # ** [Optional] Uncomment this section to install additional packages. **
 #
